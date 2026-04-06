@@ -1,14 +1,145 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Part A - Flowchart" id="BoJ7vmUQuSPomdweIg3J">
-    <mxGraphModel dx="934" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TITiNANpO8HPnIPdv4io-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;QC NewBooks - Post Entry Logic&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="360" x="245" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#1A3300);strokeColor=light-dark(#000000,#000033);" value="START" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-4" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="TITiNANpO8HPnIPdv4io-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="375" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="User Clicks &quot;Post Entry&quot;" vertex="1">
+          <mxGeometry height="60" width="185" x="333" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-26" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TITiNANpO8HPnIPdv4io-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-27" connectable="0" parent="TITiNANpO8HPnIPdv4io-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" y="1" as="geometry">
+            <mxPoint x="-7" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-41" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-42" connectable="0" parent="TITiNANpO8HPnIPdv4io-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1045" y="2" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=light-dark(#000000,#000033);fillColor=light-dark(#FFFFFF,#003300);" value="Are All Fields Filled In?" vertex="1">
+          <mxGeometry height="100" width="150" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-11" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="TITiNANpO8HPnIPdv4io-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-68" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="420" />
+              <mxPoint x="310" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-20" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#D80073,#660000);fontColor=#ffffff;strokeColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Error: Missing Fields&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="144.5" x="353" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-34" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TITiNANpO8HPnIPdv4io-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-35" connectable="0" parent="TITiNANpO8HPnIPdv4io-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="-3" as="geometry">
+            <mxPoint x="-3" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-44" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-45" connectable="0" parent="TITiNANpO8HPnIPdv4io-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.2615" y="2" as="geometry">
+            <mxPoint x="-17" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Is the Amount Greater Than Zero?" vertex="1">
+          <mxGeometry height="90" width="210" x="550" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-69" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="460" />
+              <mxPoint x="290" y="460" />
+              <mxPoint x="290" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-28" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#660000);" value="Error: Invalid Amount" vertex="1">
+          <mxGeometry height="40" width="120" x="595" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-38" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-39" connectable="0" parent="TITiNANpO8HPnIPdv4io-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-4" as="geometry">
+            <mxPoint x="-11" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-53" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-55" connectable="0" parent="TITiNANpO8HPnIPdv4io-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.05" y="-2" as="geometry">
+            <mxPoint x="-1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Do Total Debits Equal Total Credits?" vertex="1">
+          <mxGeometry height="100" width="210" x="830" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-70" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="480" />
+              <mxPoint x="260" y="480" />
+              <mxPoint x="260" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-37" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#660000);" value="Error: Out of Balance" vertex="1">
+          <mxGeometry height="40" width="120" x="865" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-62" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TITiNANpO8HPnIPdv4io-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-52" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Save Entry to Databae" vertex="1">
+          <mxGeometry height="40" width="100" x="1080" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-65" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TITiNANpO8HPnIPdv4io-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-61" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Clear Form &amp;amp; Refresh Register" vertex="1">
+          <mxGeometry height="40" width="120" x="1240" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-66" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-67" connectable="0" parent="TITiNANpO8HPnIPdv4io-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.8611" y="-3" as="geometry">
+            <mxPoint x="17" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-63" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Post Another Entry?" vertex="1">
+          <mxGeometry height="100" width="140" x="1430" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TITiNANpO8HPnIPdv4io-71" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="1450" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

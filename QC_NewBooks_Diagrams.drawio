@@ -13,7 +13,7 @@
         <mxCell id="TITiNANpO8HPnIPdv4io-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="375" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="User Clicks &quot;Post Entry&quot;" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#0000CC);strokeColor=light-dark(#000000,#00CC00);" value="User Clicks &quot;Post Entry&quot;" vertex="1">
           <mxGeometry height="60" width="185" x="333" y="150" as="geometry" />
         </mxCell>
         <mxCell id="TITiNANpO8HPnIPdv4io-26" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="TITiNANpO8HPnIPdv4io-24">
@@ -32,7 +32,7 @@
             <mxPoint x="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=light-dark(#000000,#000033);fillColor=light-dark(#FFFFFF,#003300);" value="Are All Fields Filled In?" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=light-dark(#000000,#00CC00);fillColor=light-dark(#FFFFFF,#0000CC);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Are All Fields Filled In?" vertex="1">
           <mxGeometry height="100" width="150" x="350" y="240" as="geometry" />
         </mxCell>
         <mxCell id="TITiNANpO8HPnIPdv4io-11" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="TITiNANpO8HPnIPdv4io-10">
@@ -65,7 +65,7 @@
             <mxPoint x="-17" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Is the Amount Greater Than Zero?" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0000CC);strokeColor=light-dark(#000000,#00CC00);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Is the Amount Greater Than Zero?" vertex="1">
           <mxGeometry height="90" width="210" x="550" y="245" as="geometry" />
         </mxCell>
         <mxCell id="TITiNANpO8HPnIPdv4io-69" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-3">
@@ -100,7 +100,7 @@
             <mxPoint x="-1" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Do Total Debits Equal Total Credits?" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0000CC);strokeColor=light-dark(#000000,#00CC00);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Do Total Debits Equal Total Credits?" vertex="1">
           <mxGeometry height="100" width="210" x="830" y="240" as="geometry" />
         </mxCell>
         <mxCell id="TITiNANpO8HPnIPdv4io-70" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-3">
@@ -118,13 +118,13 @@
         <mxCell id="TITiNANpO8HPnIPdv4io-62" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TITiNANpO8HPnIPdv4io-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-52" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Save Entry to Databae" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-52" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#0000CC);strokeColor=light-dark(#000000,#00CC00);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Save Entry to Databae" vertex="1">
           <mxGeometry height="40" width="100" x="1080" y="270" as="geometry" />
         </mxCell>
         <mxCell id="TITiNANpO8HPnIPdv4io-65" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TITiNANpO8HPnIPdv4io-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-61" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Clear Form &amp;amp; Refresh Register" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-61" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#FFFFFF,#0000CC);strokeColor=light-dark(#000000,#00CC00);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Clear Form &amp;amp; Refresh Register" vertex="1">
           <mxGeometry height="40" width="120" x="1240" y="270" as="geometry" />
         </mxCell>
         <mxCell id="TITiNANpO8HPnIPdv4io-66" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TITiNANpO8HPnIPdv4io-3">
@@ -135,10 +135,10 @@
             <mxPoint x="17" y="18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-63" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="Post Another Entry?" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-63" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0000CC);strokeColor=light-dark(#000000,#00CC00);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Post Another Entry?" vertex="1">
           <mxGeometry height="100" width="140" x="1430" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="TITiNANpO8HPnIPdv4io-71" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#003300);strokeColor=light-dark(#000000,#000033);" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
+        <mxCell id="TITiNANpO8HPnIPdv4io-71" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#0000CC);strokeColor=light-dark(#000000,#00CC00);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="1450" y="380" as="geometry" />
         </mxCell>
         <mxCell id="TITiNANpO8HPnIPdv4io-72" edge="1" parent="1" source="TITiNANpO8HPnIPdv4io-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="TITiNANpO8HPnIPdv4io-71">
